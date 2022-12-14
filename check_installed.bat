@@ -12,7 +12,6 @@ echo --------------------------------------------------
 echo Check installed program status:
 CALL :check_installed "C:\Program Files\VideoLAN\VLC\vlc.exe"
 CALL :check_installed "C:\Program Files\Google\Chrome\Application\chrome.exe"
-CALL :check_installed "C:\Program Files (x86)\ABBYY FineReader 14"
 echo --------------------------------------------------
 
 pause
