@@ -9,6 +9,8 @@ TITLE Mei-R
 ::--------------------------------------------------
 :: Main
 echo --------------------------------------------------
+echo %CD%
+echo --------------------------------------------------
 echo Check installed program status:
 CALL :check_installed "C:\Program Files\VideoLAN\VLC\vlc.exe"
 CALL :check_installed "C:\Program Files\Google\Chrome\Application\chrome.exe"
