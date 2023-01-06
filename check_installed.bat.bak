@@ -16,7 +16,7 @@ echo --------------------------------------------------
 
 pause
 GOTO :EOF
-:check_installed <path> 
+:check_installed <> 
 if exist "%~1" (SET file_status=Installed) else (SET file_status=Not Installed)
 echo %~1 -^> %file_status%
 EXIT /B 0

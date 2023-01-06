@@ -20,7 +20,7 @@ SETLOCAL EnableDelayedExpansion
 %=Do not remove this line=%
 )
 set "asd="C:\Program Files\VideoLAN\VLC\vlc.exe"!\n!"
-set "asd=!asd!"C:\Program Files\Google\Chrome\Application\chrome.exe"!\n!"
+set "asd=!asd!"C:\Program Files\Google\Chrome\Application\mchrome.exe"!\n!"
 ECHO !asd!
 CALL :Print_CSV_4xx !asd!
 
