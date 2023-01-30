@@ -20,8 +20,3 @@ GOTO :EOF
 if exist "%~1" (SET file_status=Installed) else (SET file_status=Not Installed)
 echo %~1 -^> %file_status%
 EXIT /B 0
-
-:: Installation folders.
-:: C:\Program Files
-:: C:\Program Files (x86)
-
